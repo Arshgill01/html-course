@@ -1,3 +1,9 @@
-.text-element2{
+p{
+  font-family: Montserrat;
+  text-align: center;
+}.text-element2{
   text-decoration: underline;
+}
+.Model-text{
+  font-weight: bold;
 }

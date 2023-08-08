@@ -1,0 +1,29 @@
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(105, 103, 103);
+}
+.search-bar2{
+  border-color: rgb(94, 93, 93);
+  border-width: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  width: 400px;
+  height: 23px;
+}
+.email{
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.Agree-join-button{
+  width: 390px;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: opacity , 0.15s;
+}
+.Agree-join-button:hover{
+  opacity: 0.85;
+}

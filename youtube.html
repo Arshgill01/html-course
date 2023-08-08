@@ -3,13 +3,61 @@
   <head>
     <style>
       .thumbnail{
+        width: 300px;
+        display: block;
 
       }
+      .text{
+        width: 300px;
+      }
+      .video-preview{
+        width: 300px;
+        display: inline-block;
+
+      }
+      .search-bar{
+        display: block;
+      }
+      
     </style>
     <title>YouTube.com clone</title>
   </head>
   <body>
-    <img class = "thumbnail" src ="thumbnails/thumbnail-1.webp">
-    <!--by just changing the width of the image the height changes automatically so that it can maintain the right dimensions there are 2 different properties of images called object-fit and object-position.-->
+    <input class="search-bar" placeholder="Search" type="text">
+   
+    <div class="video-preview">
+      <img class = "thumbnail" src ="thumbnails/thumbnail-1.webp">
+      <!--by just changing the width of the image the height changes automatically so that it can maintain the right dimensions there are 2 different properties of images called object-fit and object-position.-->
+      
+      <p class="text">
+        Talking Tech and AI with Google CEO Sundar Pichai!
+      </p>
+      <p  class="author">
+        Marques Brownlee
+      </p>
+      <p class="stats">
+        3.4M views &#183; 6 months ago
+      </p>
+    </div>
+    <div class="video-preview">
+      <img class = "thumbnail" src ="thumbnails/thumbnail-2.webp">
+      <!--by just changing the width of the image the height changes automatically so that it can maintain the right dimensions there are 2 different properties of images called object-fit and object-position.-->
+      
+      <p class="text">
+        Try Not To Laugh Challenge #9
+      </p>
+      <p  class="author">
+        Markiplier
+      </p>
+      <p class="stats">
+        19M views &#183; 4 years ago
+      </p>
+    </div>
   </body>
 </html>
+<!--Css display properties 
+1. block elements = an element which takes the entire line(in their CONTAINER) disregarding the space needed
+2. inline-block elements = an element which only take as much space as needed.
+3. inline elements = appear within a line of text.-->
+
+<!--Div element is a element which basically works as a container-->

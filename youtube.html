@@ -4,68 +4,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
-    <style>
-      .thumbnail{
-        width: 100%;
-
-      }
-      p{
-        font-family: Roboto , Arial, Helvetica, sans-serif;
-        margin-top: 0px;
-        margin-bottom: 0px;
-      }
-      
-      .author , .stats{
-        color: rgb(96, 96, 96);
-        font-family: Roboto,Arial, Helvetica, sans-serif;
-        font-size: 12px;
-      }
-      .author{
-        margin-bottom: 4px;
-      }
-      
-
-      .search-bar{
-        display: block;
-      }
-      .channel-profile{
-        border-radius: 50%;
-        width: 40px;
-      }
-      
-      
-      
-      .text{
-        
-        margin-top: 0px;
-        font-size: 15px;
-        font-weight: 600;
-        line-height: 20px;
-        margin-bottom: 12px;
-      }
-      .channel-picture-grid{
-        display: grid;
-        grid-template-columns: 50px 1fr;
-
-      }
-      .video-info-grid{
-        display: grid;
-        grid-template-columns: 50px 1fr;
-
-      }
-      .video-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 16px;
-        row-gap: 40px;
-      }
-      
-    </style>
+<link rel="stylesheet" href="youtube.css">
     <title>YouTube.com clone</title>
   </head>
   <body>
-    <input class="search-bar" placeholder="Search" type="text">
-   
+    <div class="header">
+    <div class="left-section">
+      <img src="icons/hamburger-menu.svg">
+      <img src="icons/youtube-logo.svg">
+
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" placeholder="Search" type="text">
+    </div>
+    <div class="right-section">
+      right-section
+    </div>
+
+    </div>
     
    <div class="video-grid">
       <div class="video-preview">

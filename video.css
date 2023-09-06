@@ -5,11 +5,7 @@ body{
   width: 100%;
 
 }
-p{
-  font-family: Roboto , Arial, Helvetica, sans-serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 
 .author , .stats{
   color: rgb(96, 96, 96);
@@ -21,9 +17,7 @@ p{
 }
 
 
-.search-bar{
-  display: block;
-}
+
 .channel-profile{
   border-radius: 50%;
   width: 40px;
@@ -54,26 +48,4 @@ p{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
-}
-.header{
-  height: 55px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.left-section{
-  background-color: lightblue;
-  width: 150px;
-  
-}
-.middle-section{
-  background-color: lightpink;
-  flex:1;  
-  margin-left: 70px;
-  margin-right: 35px;
-  max-width: 500px;
-}
-.right-section{
-  background-color: lightblue;
-  width: 210px;
 }
